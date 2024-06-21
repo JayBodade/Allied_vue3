@@ -87,8 +87,8 @@
             <span>Running Cash Flow</span>
         </v-tooltip>
         <v-tooltip location="start">
-            <template v-slot:activator="{ on, attrs }">
-                <v-btn v-bind="attrs" v-on="on" position="fixed" icon elevation="2" dark class="allied-blue" fab
+            <template v-slot:activator="{ props }">
+                <v-btn v-bind="props"  position="fixed" icon elevation="2" dark class="allied-blue" fab
                 style="bottom:80px;right:15px;top:610px;"   >
                     <v-icon>mdi-calendar</v-icon>
                 </v-btn>
